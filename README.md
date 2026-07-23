@@ -45,3 +45,7 @@ describes.
 Not yet implemented: the connection-level state machine (settings
 negotiation, flow control windows, GOAWAY handling), an async I/O driver,
 and a client/server API surface.
+
+## License
+
+MIT — see `Cargo.toml`.
