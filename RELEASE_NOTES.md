@@ -6,6 +6,19 @@ than a version.
 
 ---
 
+## PR #9 — Add standard repo governance files and Rust CI workflow
+**2026-07-23** · [#9](https://github.com/baileyrd/rusty_h2/pull/9)
+
+- **Added:** PR/issue templates, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`,
+  `SECURITY.md`, `CHANGELOG.md`, this `RELEASE_NOTES.md`, an
+  `ARCHITECTURE.md` describing the crate's real frame/hpack/stream
+  boundary, an ADR seed, and a `ci-rust.yml` workflow (fmt/clippy/test) so
+  merges have a required CI gate.
+- **Known limitation, stated plainly:** the security contact and ADR log
+  are seeded, not yet exercised — the first real ADR and any future
+  security report will be the actual test of this setup.
+- No functional/behavior changes; governance and CI scaffolding only.
+
 ## PR #8 — Implement HTTP/2 frame codec, HPACK, and stream state machine
 **2026-07-23** · [#8](https://github.com/baileyrd/rusty_h2/pull/8)
 
