@@ -1,5 +1,11 @@
 # rusty_h2
 
+> **This repository has moved.** `rusty_h2` now lives at
+> [`crates/rusty_h2`](https://github.com/Rusty-Mill/rusty_mill/tree/main/crates/rusty_h2)
+> in the [`rusty_mill`](https://github.com/Rusty-Mill/rusty_mill) monorepo, with full commit
+> history preserved. This repository is kept for historical reference and is no longer
+> developed; please open issues and pull requests against `rusty_mill` instead.
+
 A from-scratch HTTP/2 implementation in Rust, built directly from
 [RFC 9113](https://www.rfc-editor.org/rfc/rfc9113) (HTTP/2) and
 [RFC 7541](https://www.rfc-editor.org/rfc/rfc7541) (HPACK).
